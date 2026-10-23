@@ -1,0 +1,9 @@
+settings.json
+servers.json
+gui-profile.json
+.runtime/
+release-output/
+*.log
+__pycache__/
+*.pyc
+dist/

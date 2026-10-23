@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "server": {
+    "host": "your-server.example.org",
+    "user": "your_username",
+    "port": 22,
+    "identityFile": ""
+  },
+  "jumpHosts": [],
+  "remotePort": 11082,
+  "checkIntervalSeconds": 60
+}
