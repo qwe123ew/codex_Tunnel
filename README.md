@@ -66,7 +66,7 @@ Get-FileHash -Algorithm SHA256 .\CodexTunnel-v2.4.exe
 | 私钥 | 密钥登录时选择已有私钥文件；密码登录时留空 |
 | 跳板机 | 需要中转时添加，按从本机到目标的顺序填写；最多四台 |
 
-软件读取已有连接资料，不能凭空推断未知服务器的地址或账号。表单只保存连接参数和私钥路径，不保存密码、验证码或私钥内容。
+**软件读取已有连接资料，不凭空推断未知服务器的地址或账号。表单只保存连接参数和私钥路径，不保存密码、验证码或私钥内容。**
 
 ### 2. 启动隧道并完成 SSH 认证
 
@@ -103,7 +103,7 @@ ssh -J jumpuser@jump.example.org:22 -p 22 user@gpu.example.org
 ```json
 {
   "http.useLocalProxyConfiguration": false,
-  "http.proxy": "http://127.0.0.1:11082"
+  "http.proxy": "http://127.0.0.1:1102"
 }
 ```
 
