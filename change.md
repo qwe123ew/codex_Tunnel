@@ -10,6 +10,8 @@ User authorized publication to `qwe123ew/codex_Tunnel` and selected the MIT lice
 - Pre-publication audit checked current tracked files, eight local commits/127 distinct file versions, embedded resources and previous archive entries. No high-confidence credential findings; the known personal alias was removed. This is a bounded inspection, not a security certification.
 - GitHub repository visibility and authenticated write access were checked. Release assets are uploaded to a draft, downloaded and hash-checked before publication. No product code or local Codex/SSH/VS Code configuration changes are part of this documentation work.
 
+Publication verified: https://github.com/qwe123ew/codex_Tunnel/releases/tag/v2.4.0 targets source commit `5a3b2cd0a04621fc6f204cd051990771f5e2e334`. All four assets (EXE, portable ZIP, source ZIP, SHA256SUMS.txt) were downloaded anonymously and matched local SHA-256 values. Public README, license and troubleshooting documents were fetched successfully. Public source compiled with the existing framework compiler, and the shipped EXE passed all 36 portable/resource checks against that source. The shipped EXE SHA-256 is `60b64987b3a8c3a0b2f819215db079d75513251aed35682b6e713c7ee55feb1d`.
+
 ## 2026-10-23 — One-click remote VS Code configuration and first-run guidance v2.4.0
 
 User request: configure the selected server's VS Code proxy with one button, preserving local configuration; clicking Start on a new computer with no server entries should open a guided form and continue after saving.

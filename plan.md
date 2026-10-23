@@ -1,4 +1,4 @@
-﻿# Portable Codex SSH proxy tunnel implementation plan
+# Portable Codex SSH proxy tunnel implementation plan
 
 Date: 2026-10-22
 
@@ -106,5 +106,5 @@ User destination: `https://github.com/qwe123ew/codex_Tunnel`; user chose MIT. Pr
 
 - [x] Verify repository visibility/access and audit current source, binary, archive and relevant history.
 - [x] Prepare MIT license, public quick start, troubleshooting, screenshots and sanitized records.
-- [ ] Validate public checkout, commit/push source without force, and prepare EXE/portable/source assets with checksums.
-- [ ] Upload and verify release assets, publish v2.4.0, and confirm public download URLs.
+- [x] Validate public checkout, commit/push source without force, and prepare EXE/portable/source assets with checksums.
+- [x] Upload and verify release assets, publish v2.4.0, and confirm public download URLs.
